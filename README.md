@@ -11,3 +11,7 @@
 The Problem is solved now! 😎
 - The main problem was that when we were selecting either genre or sort then it war working fine but when selecting both the later selected one is only applied
 - The problem was due to declaration of filter{} object inside explore function, which was resetting when selecting another input and the later selected input only remains in that, but declaring it outside the function(globally) solved the problem.
+
+
+## LIVE
+https://movix-themoviesite.vercel.app/
